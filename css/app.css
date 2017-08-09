@@ -27,47 +27,6 @@ $dark:                            #444 !default;
   Modified icons to fit ionicon’s grid from original.
 */
 
-/* Custom theming*/
-
-	.bar-header {
-		background-color: #004F9B;
-	}
-	
-	ion-side-menuli.item {
-		background-color: #3a3a3a;
-		border-color: #4F5865;
-		color:#BCC3CF;
-	}
-	
-	ion-side-menuli.item {
-		border-color: #4F5865;
-	}
-	
-	ion-side-menuli.item.item-divider {
-		background-color: #3E4755;
-	}
-
-	.bar-side-menu {
-		height: 130px !important
-	}
-	.bar-side-menu:before {
-		content: url('https://beta-yokogawa.moodle.school/pluginfile.php/1/theme_school/logo/1501813008/yokogawa.png');
-		width: 0;
-	}
-	
-	.bar-side-menu .item-avatar img {
-		top: 70px;	
-	}
-	.bar-side-menu .item-avatar {
-		padding-top: 70px;
-	}
-	
-	.has-side-menu-header {
-		top: 130px;
-	}
-
-/* end custom theme */
-
 
 @font-face {
   font-family: "Ionicons";
@@ -7822,3 +7781,44 @@ em {
   border-right: 1px solid #ddd; }
 .tablet .mm-split-pane-content {
   display: block; }
+
+/* Custom theming*/
+
+	.bar-header {
+		background-color: #004F9B;
+	}
+	
+	ion-side-menuli.item {
+		background-color: #3a3a3a;
+		border-color: #4F5865;
+		color:#BCC3CF;
+	}
+	
+	ion-side-menuli.item {
+		border-color: #4F5865;
+	}
+	
+	ion-side-menuli.item.item-divider {
+		background-color: #3E4755;
+	}
+
+	.bar-side-menu {
+		height: 130px !important
+	}
+	.bar-side-menu:before {
+		content: url('https://beta-yokogawa.moodle.school/pluginfile.php/1/theme_school/logo/1501813008/yokogawa.png');
+		width: 0;
+	}
+	
+	.bar-side-menu .item-avatar img {
+		top: 70px;	
+	}
+	.bar-side-menu .item-avatar {
+		padding-top: 70px;
+	}
+	
+	.has-side-menu-header {
+		top: 130px;
+	}
+
+/* end custom theme */
