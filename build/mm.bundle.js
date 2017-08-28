@@ -29846,6 +29846,13 @@ angular.module('mm.addons.messages')
             if (canDelete && ($scope.data.canDelete != newCanDelete)) {
                 triggerDiscussionLoadedEvent();
             }
+			//My code to create a local notification
+			
+			cordova.plugins.notification.local.schedule({
+				id: $mmSite.getId(),
+				title: "Plant+ Knowledge: New Message from" + lastMessage.message.useridfrom
+				text: last.Message.message
+			})
         }
     }
     function setScrollWithKeyboard() {
